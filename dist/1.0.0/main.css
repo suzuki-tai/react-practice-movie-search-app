@@ -1,0 +1,131 @@
+/*!************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./src/App.css ***!
+  \************************************************************************************************************************************************************************************************************************************/
+.search-movie-component {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.spinner {
+  height: 80px;
+  margin: auto;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+/* new css for movie component */
+* {
+  box-sizing: border-box;
+}
+
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.App-header h2 {
+  margin: 0;
+}
+
+.add-movies {
+  text-align: center;
+}
+
+.add-movies button {
+  font-size: 16px;
+  padding: 8px;
+  margin: 0 10px 30px 10px;
+}
+
+.movie {
+  padding: 5px 25px 10px 25px;
+  max-width: 25%;
+}
+
+.errorMessage {
+  margin: auto;
+  font-weight: bold;
+  color: rgb(161, 15, 15);
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.MuiSvgIcon-root:hover {
+  color: darkgray;
+}
+
+.search-button {
+  margin-top: -1rem;
+}
+
+#search-condition-title {
+  width: 30%;
+  min-width: 170px;
+  height: 2.5rem;
+}
+
+#search-condition-title::-webkit-search-cancel-button {
+  cursor: pointer;
+}
+
+#search-condition-year {
+  width: 8%;
+  min-width: 1rem;
+}
+
+.search-condition-item-name {
+  margin-top: 0.5rem;
+  padding: 0.1rem;
+  padding-left: 1rem;
+  padding-right: 0.5rem;
+  vertical-align: middle;
+}
+
+.required::after {
+  content: " *";
+  color: red;
+  vertical-align: middle;
+  margin-top: 1rem;
+}
+
+.loader {
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 694px) and (max-width: 915px) {
+  .movie {
+    max-width: 33%;
+  }
+}
+@media screen and (min-width: 652px) and (max-width: 693px) {
+  .movie {
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 651px) {
+  .movie {
+    max-width: 100%;
+    margin: auto;
+  }
+}
